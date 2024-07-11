@@ -44,7 +44,7 @@ try:
        'https://blog.csdn.net/zwa20110606/article/details/140216292?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22140216292%22%2C%22source%22%3A%22zwa20110606%22%7D',
        'https://www.douyin.com/user/self?modal_id=7388399844714482978',
        'https://zhuanlan.zhihu.com/p/707278812',
-       'https://github.com/nitsc/Ni_2'，
+       'https://github.com/nitsc/Ni_2',
        'https://github.com/nitsc/IncreaseWebsiteVisitorsTools']
 except ValueError as e:
     print(f"输入错误: {e}")
