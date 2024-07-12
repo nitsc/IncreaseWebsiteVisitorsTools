@@ -21,13 +21,13 @@ user_agents = [
     # Chrome on Android
     'Mozilla/5.0 (Linux; Android 8.0.0; SM-G960F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36',
     # Firefox on Android
-    'Mozilla/5.0 (Android 7.0; Mobile; rv:54.0) Gecko/54.0 Firefox/54.0',
+    'Mozilla/5.0 (Android 13.1; Mobile; rv:54.0) Gecko/54.0 Firefox/54.0',
     # Samsung Internet on Android
     'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G960F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.1 Chrome/71.0.3578.99 Mobile Safari/537.36',
     # Opera on Android
-    'Mozilla/5.0 (Linux; Android 6.0; Lenovo K33a42 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Opera/50.2.2429.143960 Mobile Safari/537.36 OPR/46.2.2246.120624',
+    'Mozilla/5.0 (Linux; Android 14.0; Lenovo K33a42 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Opera/50.2.2429.143960 Mobile Safari/537.36 OPR/46.2.2246.120624',
     # UC Browser on Android
-    'Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; BKL-AL00'
+    'Mozilla/5.0 (Linux; U; Android 12.1.0; zh-CN; BKL-AL00'
 ]
 
 # 定义延迟时间列表
@@ -41,6 +41,9 @@ input_str = input("请输入一个由逗号分隔的URL列表(要刷的网站): 
 try:
     urls = [int(x) for x in input_str.split(',') if x.isdigit()] + [
        'https://nitsc.github.io/',
+       'https://www.bilibili.com/video/BV1aSaKe1EYp/?spm_id_from=333.337.search-card.all.click',
+       'https://ask.csdn.net/questions/8128806?spm=1001.2014.3001.5501',
+       'https://stackoverflow.com/questions/78733389/file-corruption-after-file-copying-using-python-how-to-fix-it'
        'https://blog.csdn.net/zwa20110606/article/details/140216292?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22140216292%22%2C%22source%22%3A%22zwa20110606%22%7D',
        'https://www.douyin.com/user/self?modal_id=7388399844714482978',
        'https://zhuanlan.zhihu.com/p/707278812',
@@ -75,7 +78,7 @@ if __name__ == '__main__':
                 # 提交任务到线程池
                 future = executor.submit(visit_url_with_proxy, url)
                 futures.append(future)
-            
+
             # 等待所有任务完成
             for future in concurrent.futures.as_completed(futures):
                 pass  # 可以在这里处理每个任务的结果，这里只是等待
