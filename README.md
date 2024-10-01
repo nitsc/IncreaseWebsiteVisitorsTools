@@ -1,39 +1,40 @@
-一个用于增加网站访问量的 python 小工具
-建议：
-  本程序不自带代理访问功能；
-  最好不要在本地无加密IP情况下使用；
-  最好使用 Colab， Kaggle 等托管式 Jupyter 笔记本服务运行代码；
-  最好添加代理IP；
-  不要频繁使用；
-  出了任何问题和坏事开发方不负责。
+**一个用于增加网站访问量的 Python 小工具**
 
-声明: 本程序由中国初一学生开发，如有不足，请积极提交反馈，可以通过以下联系开发者： 
-邮箱：dministrator1st1234567890dddaz@outlook.com, 
-a111111111199999@outlook.com, kreantolittle2@outlook.com, 
-zhoukreanto@gmail.com, 3792561886@qq.com, 3874057698@qq.com 
-QQ: 3792561886, 3874057698 
-个人网站（静态页面，用于发布本人的公告）：https://nitsc.github.io
+**重要提示：**
 
-谢谢使用
+* **本工具不提供代理功能。**
+* **请勿在本地未加密网络中使用。**
+* **建议在 Colab、Kaggle 等云端 Jupyter Notebook 环境运行。**
+* **强烈建议使用代理 IP。**
+* **请勿频繁使用，以免造成不必要的麻烦。**
+* **开发者不对使用本工具产生的任何问题负责。**
 
+**免责声明：** 本工具由一名中国初中学生开发，如有不足之处，欢迎反馈。
 
-A python widget for increasing the number of visitors to your website
-Recommended:
-  This program does not come with proxy access;
-  It is best not to use it locally without an encrypted IP;
-  It is best to use a hosted Jupyter notebook service such as Colab, Kaggle, etc. to run the code;
-  It is best to add a proxy IP;
-  Don't use it too often;
-  The developer is not responsible for any problems or bad things.
+**联系方式：**
+* **邮箱：** dministrator1st1234567890dddaz@outlook.com, a111111111199999@outlook.com, kreantolittle2@outlook.com, zhoukreanto@gmail.com, 3792561886@qq.com, 3874057698@qq.com
+* **QQ：** 3792561886, 3874057698
+* **个人网站：** [https://nitsc.github.io](https://nitsc.github.io)
 
-DISCLAIMER: This program is developed by a first year student in China, if there are any deficiencies, please actively submit feedback, you can contact the developer via the following: 
-Email: dministrator1st1234567890dddaz@outlook.com, 
-a111111111199999@outlook.com, kreantolittle2@outlook.com, 
-zhoukreanto@gmail.com, 3792561886@qq.com, 3874057698@qq.com 
-QQ: 3792561886, 3874057698 
-Personal website (static page for posting my announcements): https://nitsc.github.io
-
-Thanks for using
+**感谢使用！**
 
 
-Copyright © NITSC，Dean of NITSC，周**
+**A Python widget for increasing the number of visitors to your website**
+
+**Important Notice:**
+
+* **This tool does not provide proxy access.**
+* **Please do not use it locally on an unencrypted network.**
+* **It is recommended to run it in a cloud-based Jupyter Notebook environment like Colab or Kaggle.**
+* **Strongly recommended to use a proxy IP.**
+* **Please do not use it frequently to avoid unnecessary trouble.**
+* **The developer is not responsible for any problems caused by using this tool.**
+
+**Disclaimer:** This tool is developed by a first-year student in China, if there are any deficiencies, please feel free to provide feedback.
+
+**Contact:**
+* **Email:** dministrator1st1234567890dddaz@outlook.com, a111111111199999@outlook.com, kreantolittle2@outlook.com, zhoukreanto@gmail.com, 3792561886@qq.com
+* **QQ:** 3792561886, 3874057698
+* **Personal website:** [https://nitsc.github.io](https://nitsc.github.io)
+
+**Thank you for using!**
